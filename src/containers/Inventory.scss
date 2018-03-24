@@ -1,0 +1,32 @@
+
+.Inventory{
+   
+    .Inventory__heading{
+        display: flex;
+        align-items: center;
+        .Label{
+            margin: 0.5em;
+        }
+        .Gotocart{
+            margin: 0px;
+            margin-left: auto;
+            background-color: #0099ff;
+            color: #fff;
+            padding: 0.4em 1.5em;
+            border: 0px;
+            border-radius: 3px; 
+            font-size: 0.8em;
+            cursor: pointer;
+            .Gotocart__icon{
+                padding-left: 0.5em;
+            }
+        }
+        .Gotocart:hover{
+            opacity: 0.9;
+        }
+    }
+    .Inventory__heading-seperator{
+        border-color:#efefef;
+    }
+}
+

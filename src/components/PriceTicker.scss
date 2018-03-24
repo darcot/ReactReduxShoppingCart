@@ -1,0 +1,25 @@
+.PriceTicker{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #efefef;
+    margin: 0px 0px 0px 2em;
+    .heading{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .PriceTicker__Table{
+        border-collapse: collapse;
+        width:100%;
+        .PriceTicker__Table-lastrow td{ 
+            background-color: #efefef;
+            padding: 1em 0.5em;
+        }
+
+        td{
+            padding: 0.5em;
+        }
+        td:last-child{
+            text-align: right
+        }
+    }
+}

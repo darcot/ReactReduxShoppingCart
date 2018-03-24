@@ -1,0 +1,71 @@
+.InventoryItem{
+    width: 100%;
+    height: 238px;
+    border:1px solid #ccc;
+    margin-bottom:1em;
+    .InventoryItem__ImageWrapper{
+        height: 175px;
+        width: 100%;
+        display: inline-flex;
+        .InventoryItem__Image{
+            margin:0px auto; 
+            display: block  ;
+            align-self: center;
+        }
+        .InventoryItem__DiscountPercent{
+            position: absolute;
+            padding: 5px 15px;
+            background-color: #70c35d;
+            color: #fff;
+            margin-top: 15px;
+            }
+    }
+    .InventoryItem__Footer{
+        height: 63px;
+        background-color: #efefef;
+        padding: 0.5em;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .InventoryItem__Title{
+            width: 100%;
+        }
+        .InventoryItem__Discount{
+            font-style: italic;
+            text-decoration: line-through;
+            text-decoration-color: red;
+            padding-right: 0.5em;
+        }
+    .InventoryItem__addToCart{
+        margin: 0px;
+        margin-left: auto;
+        background-color: #fff;
+                border:1px solid #0099ff;
+        color: #0099ff;
+        padding: 0.3em 0.5em;
+        height: 26px;
+        border-radius: 3px; 
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+   
+    .InventoryItem__addToCart:hover{
+        background-color: #0099ff;
+        color: #fff;
+    }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .InventoryItem{
+        width: 48%;
+    }
+}
+@media (min-width: 1024px) {
+    .InventoryItem{
+        width: 233px;
+    }
+    
+}

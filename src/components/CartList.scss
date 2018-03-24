@@ -1,0 +1,48 @@
+
+.CartList__table{
+    thead tr{
+     th{
+        text-align: left;
+        border-bottom:1px solid #efefef; 
+    }
+}
+    width:100%;
+    .CartRow__name{
+        width: 60%;
+        padding: 5px;
+        text-align: left
+    }
+    .blankRow{
+        height: 10px;
+    }
+    tbody tr{
+        .remove_item{
+            float: right;
+            position: relative;
+            top: 8px;
+            font-size: 21px;
+            cursor: pointer;
+        }
+        .removequantity,.addquantity{
+            cursor: pointer;
+            padding:0px 0.5em;
+            
+        }
+        .CartRow_title{
+        padding: 0.5em;
+        border:1px solid #efefef; 
+            .CartRow_thumbnail{
+                vertical-align: middle;
+                padding-right: 0.5em;
+    
+            }
+        }
+
+    }
+}
+@media (min-width: 1024px) {
+
+.CartList__table{
+    width: 700px;
+}
+}
